@@ -1,0 +1,44 @@
+1. Creating virtual environment for python :
+
+   command : sudo pip install virtualenv virtualenvwrapper
+
+2. Exporting and setting the paths:
+
+   export WORKON_HOME=$HOME/.virtualenvs
+   export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python3
+   source /usr/local/bin/virtualenvwrapper.sh
+
+3. Then do source :
+   
+   command : source ~/.bashrc
+
+4. Creating virtual environment:
+
+   command : mkvirtualenv ml
+
+5. Entering the virtual command:
+
+   command : workon ml
+
+6. for deactiving virtual space:
+
+   command : deactivate
+
+
+=======================
+Machine learning setup
+=======================
+
+1. Creating a file called requirement.txt ,which contain following data for setting up
+
+   LIbraries:
+   numpy
+   scipy
+   pandas
+   matplotlib
+   scikit-learn
+
+2 Then run following command to stup env:
+
+  Command : pip install -r requirements.txt
+
