@@ -1,4 +1,5 @@
-#Question link : https://www.hackerrank.com/contests/projecteuler/challenges/euler002/problem
+#Question : Project Euler #2: Even Fibonacci numbers
+#link : https://www.hackerrank.com/contests/projecteuler/challenges/euler002/problem
 
 #Answer:
 def fib(x):
@@ -11,8 +12,6 @@ def fib(x):
                 yield b
         else:
             break
-         
-
 
 t = int(input().strip())
 for a0 in range(t):
@@ -21,3 +20,6 @@ for a0 in range(t):
     for i in fib(n):
         sums += i
     print(sums)
+
+    
+#Passed all the test cases
